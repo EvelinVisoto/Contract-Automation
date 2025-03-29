@@ -1,42 +1,42 @@
-# Automação de Contratos
+# Contract Automation
 
-## Descrição
-Este projeto automatiza a geração de contratos utilizando Python. O sistema lê dados de uma planilha Excel e preenche um modelo de documento Word (.docx), mantendo a formatação original. Ele também gera valores numéricos por extenso, valida e formata campos como CPF, CNPJ, endereços e datas, garantindo consistência e precisão na geração dos documentos.
+### Description
+This project automates contract generation using Python. The system reads data from an Excel spreadsheet and fills in a Word document template (.docx), maintaining the original formatting. It also converts numerical values to text, validates and formats fields such as CPF, CNPJ, addresses, and dates, ensuring consistency and accuracy in document generation.
 
-## Funcionalidades
-- Leitura de dados a partir de um arquivo Excel (.xlsx)
-- Preenchimento automatizado de contratos no formato Word (.docx)
-- Manutenção da formatação original do documento
-- Geração de valores numéricos por extenso
-- Validação e formatação de CPF, CNPJ, endereços e datas
-- Geração automatizada e organização dos contratos em uma pasta de saída
+### Features
+- Reads data from an Excel (.xlsx) file  
+- Automatically fills contracts in Word (.docx) format  
+- Maintains the original document formatting  
+- Converts numerical values to text  
+- Validates and formats CPF, CNPJ, addresses, and dates  
+- Automatically generates and organizes contracts in an output folder  
 
-## Tecnologias Utilizadas
-- **Python 3.x**: Linguagem principal do projeto
-- **pandas**: Para manipulação e leitura dos dados do Excel
-- **python-docx**: Para manipulação de documentos Word
-- **num2words**: Para conversão de números em texto por extenso
-- **os**: Para gerenciar diretórios e arquivos
+### Technologies Used
+- **Python**: Main language of the project  
+- **pandas**: For handling and reading Excel data  
+- **python-docx**: For Word document manipulation  
+- **num2words**: For converting numbers into text  
+- **os**: For managing directories and files  
 
-## Como Usar
-1. Prepare um arquivo Excel (`dados_funcionarios.xlsx`) com os campos necessários.
-2. Insira um modelo de contrato no formato Word (`modelo_contrato.docx`) com as tags correspondentes.
-3. Execute o script:
+### How to Use
+1. Prepare an Excel file (`dados_funcionarios.xlsx`) with the required fields.  
+2. Insert a contract template in Word format (`modelo_contrato.docx`) with the corresponding tags.  
+3. Run the script:  
    ```sh
-   python gerar_contratos.py
+   python preenchimento_contratos.py
    ```
-4. Os contratos preenchidos serão gerados na pasta `dist/contratos/`.
+4. The filled contracts will be generated in the `dist/contratos/` folder.  
 
-## Estrutura do Projeto
+### Project Structure
 ```
-automacao-de-contratos/
-│── dados_funcionarios.xlsx  # Planilha com os dados
-│── modelo_contrato.docx     # Modelo do contrato
-│── gerar_contratos.py       # Script principal
+Projeto_Contratos/
+│── dados_funcionarios.xlsx  # Spreadsheet with data
+│── modelo_contrato.docx     # Contract template
+│── gerar_contratos.py       # Main script
 │── dist/
-│   └── contratos/           # Pasta onde os contratos gerados serão armazenados
+│   └── contratos/           # Folder where generated contracts will be stored
 ```
 
-## Autor
-Desenvolvido por **Evelin Visoto** - 2024/2025  
-📌 **Repositório no GitHub**: [https://github.com/EvelinVisoto/automacao-de-contratos](https://github.com/EvelinVisoto/automacao-de-contratos)
+### Author
+Developed by **Evelin Visoto** - 2024/2025  
+📌 **GitHub Repository**: [https://github.com/EvelinVisoto/Contract-Automation](https://github.com/EvelinVisoto/Contract-Automation) 🚀
