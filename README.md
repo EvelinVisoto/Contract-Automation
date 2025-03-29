@@ -39,4 +39,4 @@ Projeto_Contratos/
 
 ### Author
 Developed by **Evelin Visoto** - 2024/2025  
-📌 **GitHub Repository**: [https://github.com/EvelinVisoto/Contract-Automation](https://github.com/EvelinVisoto/Contract-Automation) 🚀
+📌 **GitHub Repository**: [https://github.com/EvelinVisoto/Contract-Automation](https://github.com/EvelinVisoto/Contract-Automation) 
