@@ -30,11 +30,11 @@ This project automates contract generation using Python. The system reads data f
 ### Project Structure
 ```
 Projeto_Contratos/
-│── dados_funcionarios.xlsx  # Spreadsheet with data
-│── modelo_contrato.docx     # Contract template
-│── gerar_contratos.py       # Main script
+│── dados_funcionarios.xlsx      # Spreadsheet with data
+│── modelo_contrato.docx         # Contract template
+│── preenchimento_contratos.py   # Main script
 │── dist/
-│   └── contratos/           # Folder where generated contracts will be stored
+│   └── contratos/               # Folder where generated contracts will be stored
 ```
 
 ### Author
